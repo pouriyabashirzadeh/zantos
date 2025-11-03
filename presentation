@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>پروپوزال B2B زانتوس | تحلیل بازار یونیفرم و رقبا</title>
+  <style>
+    body {
+      font-family: IRANSans, 'Segoe UI', 'Tahoma', sans-serif;
+      background: #fff; margin:0;padding:0;
+      color:#212529;direction:rtl;line-height:1.9;
+    }
+    a { color:#ef7d00;text-decoration:none;font-weight:bold;}
+    nav {background:#fff;border-bottom:2px solid #ef7d00;padding:17px 0 7px 0;}
+    nav ul {list-style:none;display:flex;justify-content:flex-end;gap:32px;margin:0 40px 0 0;}
+    nav ul li {font-weight:bold;font-size:18px;cursor:pointer;}
+    .logo {font-size:2rem;color:#ef7d00;margin-right:38px;font-family:Montserrat,sans-serif;}
+    .section {padding:64px 6vw 52px 6vw;max-width:1100px;margin:0 auto;}
+    .hero {background:linear-gradient(120deg,#ef7d00 70%,#fff 100%);color:#fff;padding:92px 0 60px 0;text-align:center;}
+    .hero h1 {font-size:50px;margin:0 0 .4em 0;font-family:Montserrat,sans-serif;}
+    .hero h2 {font-size:21px; margin:0 0 2em 0; font-weight:400;}
+    .cta-btn {padding:17px 38px;font-size:21px;background:#fff;color:#ef7d00;font-weight:bold;border:none;border-radius:7px;box-shadow:0 1px 10px #FF7A0033;letter-spacing:1.5px;cursor:pointer;transition:.2s;}
+    .cta-btn:hover {background:#ef7d00;color:#fff;}
+    .accentline {width:54px;height:4px;background:#ef7d00;margin:21px 0;}
+    .grid3, .grid4, .examples-grid {display:grid;grid-template-columns:repeat(3,1fr);gap:36px;}
+    .examples-grid{grid-template-columns:repeat(4,1fr);}
+    .card, .product-card, .advcard, .scen-card, .compare-table,.consult-form {background:#fff;border-radius:12px;box-shadow:0 2px 12px #ef7d0022;padding:26px;transition:.2s;}
+    .card:hover,.advcard:hover,.product-card:hover,.scen-card:hover{transform:scale(1.02);box-shadow:0 4px 30px #ef7d0048;}
+    .product-card img {border-radius:9px;border:4px solid #ef7d00;object-fit:cover;width:100%;max-width:220px;height:165px;display:block;margin:auto;}
+    .product-card p {padding-top:10px;font-size:15px;text-align:center;}
+    .advlist,.vp{list-style:none;padding:0;}
+    .advlist li:before{content:"✓";color:#ef7d00;font-weight:bold;margin-left:9px}
+    .competitors,.brands{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin:36px 0;}
+    .brands img{background:#fff;border:3px solid #ef7d00;border-radius:9px;padding:8px;width:92px;height:60px;object-fit:contain;}
+    .compare-table{margin:28px auto;max-width:800px;}
+    .compare-table table{width:100%;border-collapse:collapse;}
+    .compare-table td,.compare-table th{padding:14px 8px; border:1px solid #ef7d00;}
+    .compare-table th{background:#ef7d00;color:#fff;}
+    .compare-table tr:nth-child(even){background:#fafafa;}
+    .scenarios{display:grid;grid-template-columns:repeat(2,1fr);gap:32px;}
+    .scen-card{text-align:center;}
+    .scen-card .icon{font-size:47px;color:#ef7d00;margin-bottom:8px;}
+    .consult-form{max-width:460px;margin:35px auto;background:#f9f9f9}
+    .consult-form input,.consult-form textarea{font-size:16px;padding:11px;margin:8px 0;width:97%;border-radius:8px;border:1.5px solid #ef7d00;}
+    .consult-form label{font-weight:bold;}
+    .consult-form button{background:#ef7d00;color:#fff;font-weight:bold;padding:15px 20px;border:none;border-radius:9px;margin-top:16px;cursor:pointer;}
+    .consult-form button:hover{background:#ff9900;}
+    .footer{background:#ef7d00;color:#fff;text-align:center;padding:30px 0;margin-top:60px;}
+    @media(max-width:800px){.grid3,.grid4,.examples-grid,.competitors,.brands,.scenarios{grid-template-columns:1fr;}}
+    @media(max-width:500px){.section{padding:35px 2vw}.hero h1{font-size:29px}}
+  </style>
+</head>
+<body>
+<nav>
+  <span class="logo">ZANTOS</span>
+  <ul>
+    <li onclick="scrollToId('about')">درباره ما</li>
+    <li onclick="scrollToId('analysis')">تحلیل بازار</li>
+    <li onclick="scrollToId('products')">خدمات و محصولات</li>
+    <li onclick="scrollToId('advantages')">مزیت‌های رقابتی</li>
+    <li onclick="scrollToId('consult')">مشاوره و دریافت پروپوزال</li>
+    <li onclick="scrollToId('contact')">اطلاعات تماس</li>
+  </ul>
+</nav>
+<div class="hero section">
+  <h1>پروپوزال B2B زانتوس</h1>
+  <h2>مسیر حرفه‌ای، یکپارچه و سریع برای تامین یونیفرم سازمان شما با تحلیل بازار و مقایسه رقبا</h2>
+  <button class="cta-btn" onclick="scrollToId('consult')">رزرو وقت مشاوره تخصصی رایگان</button>
+</div>
+
+<div class="section" id="about">
+  <div class="accentline"></div>
+  <h2>درباره برند زانتوس</h2>
+  <p>
+    زانتوس تنها مجموعه تخصصی تولید یونیفرم سازمانی، لباس کار صنعتی و پوشاک ورزشی است که فرایند کامل را از <b>انتخاب پارچه، طراحی، نمونه‌سازی، تولید، چاپ و دوخت لوگوی سازمان</b> تا کنترل کیفیت و بسته‌بندی حرفه‌ای به صورت یکپارچه و با تیم متخصص انجام می‌دهد.<br>
+    با زانتوس دیگر مجبور نیستید کارتان را به خیاط سنتی یا تولیدی‌های پراکنده بسپارید و دغدغه ریسک و هماهنگی چند مرحله‌ای داشته باشید.<br>
+    موفقیت شما از لحظه مشاوره تا دریافت محصول حرفه‌ای، در کنار گارانتی ۳۰ روزه کیفیت، تضمین شده است.
+  </p>
+</div>
+
+<div class="section" id="analysis">
+  <div class="accentline"></div>
+  <h2>تحلیل بازار یونیفرم و مقایسه رقبا</h2>
+  <p>
+    بر اساس داده‌های آخرین تحقیقات بازار و لینک <a href="https://zantos.my.canva.site/iran-uniform-market-analysis-presentation">تحلیل بازار یونیفرم ایران</a>:
+    <br>
+    <b>ارزش بازار:</b> بیش از ۸۰۰ میلیون دلار (۲۰۲۵)<br>
+    <b>رشد سالانه بازار:</b> ۴.۱٪<br>
+    <b>مهمترین رقبای داخلی:</b> برندهای GERAD، Hacupian (اداری)، Maxim و تولیدی‌های عمده محلی<br>
+    <b>مزیت رقابتی اصلی زانتوس:</b> کنترل هزینه‌های تولید و اجرای پارچه و چاپ، تیم طراحی درون‌سازمانی و تحویل حرفه‌ای.<br>
+  </p>
+  <div class="compare-table">
+    <table>
+      <tr>
+        <th>ویژگی مقایسه</th>
+        <th>زانتوس</th>
+        <th>GERAD</th>
+        <th>Maxim</th>
+        <th>تولیدی‌محلی</th>
+      </tr>
+      <tr>
+        <td>فرایند کامل</td><td>یکپارچه و تیمی</td><td>تک‌فاز، نیاز به واسطه</td><td>فقط دوخت</td><td>پراکنده</td>
+      </tr>
+      <tr>
+        <td>تنوع پارچه و چاپ</td><td>بسیار بالا، انتخاب با مشاور</td><td>محدود، سنتی</td><td>متوسط</td><td>پایین</td>
+      </tr>
+      <tr>
+        <td>سرعت تحویل</td><td>۱۸ تا ۲۵ روز</td><td>۴۵ تا ۷۰ روز</td><td>۵۵ تا ۸۵ روز</td><td>نامشخص</td>
+      </tr>
+      <tr>
+        <td>گارانتی و اصلاح</td><td>۳۰ روز واقعی</td><td>ندارد</td><td>ندارد</td><td>نامشخص</td>
+      </tr>
+      <tr>
+        <td>طراح اختصاصی</td><td>بله</td><td>ندارد</td><td>ندارد</td><td>ندارد</td>
+      </tr>
+      <tr>
+        <td>سفارش سفارشی</td><td>✓</td><td>کم</td><td>کم</td><td>ناممکن</td>
+      </tr>
+      <tr>
+        <td>قیمت‌گذاری</td><td>شفاف، رقابتی</td><td>نامشخص</td><td>متوسط</td><td>ارزان</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="section" id="products">
+  <div class="accentline"></div>
+  <h2>خدمات، دسته محصولات و نمونه عکس‌ها</h2>
+  <div class="examples-grid">
+    <div class="product-card">
+      <img src="13.jpg">
+      <p>پولو شرت و تی شرت سازمانی با چاپ و رنگ برند</p>
+    </div>
+    <div class="product-card">
+      <img src="Untitled-9.jpg">
+      <p>پافر و کاپشن زمستانی ویژه مدیران و پرسنل</p>
+    </div>
+    <div class="product-card">
+      <img src="Untitled-4.jpg">
+      <p>لباس کار فنی با لوگو دوزی صنعتی و پارچه ضدحریق</p>
+    </div>
+    <div class="product-card">
+      <img src="Untitled-2-copy.jpg">
+      <p>ست ورزشی و لباس باشگاهی با طراحی اختصاصی</p>
+    </div>
+  </div>
+  <div class="grid3" style="margin-top:40px;">
+    <div class="card">
+      <h3>لباس تبلیغاتی و پک استخدام</h3>
+      <ul class="vp">
+        <li>سفارشی‌سازی رنگ و لوگو برای هر سازمان</li>
+        <li>پک شروع برای نیروی جدید و هدیه به مشتری</li>
+        <li>سازگار با همه فصل‌ها</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>لباس صنعتی و یکپارچه</h3>
+      <ul class="vp">
+        <li>مناسب معادن، کارخانجات، آشپزخانه و صنایع</li>
+        <li>ضدحریق، ضدآب، با دوام بالا و کنترل کیفیت</li>
+        <li>تمام مراحل توسط کارشناسان تولید صنعتی</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>ست ورزشی اختصاصی</h3>
+      <ul class="vp">
+        <li>پوشاک باشگاهی و تیمی با چاپ برند</li>
+        <li>مناسب اسپانسر، تیم، و تولیدکننده مکمل ورزشی</li>
+        <li>تحویل سریع و امکان طراحی سفارشی</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="advantages">
+  <div class="accentline"></div>
+  <h2>مزیت‌های رقابتی و ارزش پیشنهادی زانتوس</h2>
+  <ul class="advlist" style="font-size:17px;">
+    <li>فرایند یکپارچه: از انتخاب پارچه تا لوگو و بسته‌بندی کاملاً داخل یک تیم</li>
+    <li>تنوع محصول و قابلیت شخصی‌سازی برای هر صنعت و برند</li>
+    <li>سرعت عالی (۱۸ تا ۲۵ روز) با گارانتی اصلاح ۳۰ روزه</li>
+    <li>طراحی اختصاصی مطابق DNA فرهنگی و برندبوک سازمان شما</li>
+    <li>قیمت‌گذاری رقابتی و شفاف، مشاوره تخصصی رایگان قبل از سفارش</li>
+    <li>کیفیت نمونه‌سازی و لوگو دوزی صنعتی با تجهیزات پیشرفته و تیم خبره</li>
+    <li>روند سریع دریافت استعلام و صدور پروپوزال با داده‌های دقیق</li>
+  </ul>
+</div>
+
+<div class="section" id="consult">
+  <div class="accentline"></div>
+  <h2>دریافت وقت مشاوره و پروپوزال اختصاصی</h2>
+  <form class="consult-form" id="form">
+    <label>نام:</label><input type="text" required>
+    <label>ایمیل/شماره تماس:</label><input type="text" required>
+    <label>نوع لباس مورد نظر:</label>
+    <select style="width:100%;padding:10px">
+      <option value="لباس سازمانی">لباس سازمانی و اداری</option>
+      <option value="لباس کار صنعتی">لباس کار صنعتی</option>
+      <option value="ست ورزشی">لباس ورزشی/باشگاهی</option>
+      <option value="سفارشی">لباس سفارشی با لوگو برند</option>
+    </select>
+    <label>تعداد مورد نیاز:</label><input type="number" min="1">
+    <label>پیام یا توضیحات:</label><textarea rows="3" style="resize:vertical"></textarea>
+    <button type="submit">ثبت درخواست مشاوره یا پروپوزال</button>
+  </form>
+  <script>
+    document.getElementById('form').onsubmit=function(e){
+      e.preventDefault();alert('درخواست شما ثبت شد.\nتا حداکثر ۲۴ ساعت آینده کارشناسان زانتوس با شما تماس خواهند گرفت.');
+      this.reset();
+    };
+  </script>
+</div>
+
+<div class="section" id="contact">
+  <div class="accentline"></div>
+  <h2>اطلاعات تماس و پیشنهاد ویژه</h2>
+  <p>
+    دفتر مرکزی و کارخانه: خیابان شریعتی، بین طالقانی و سمیه، کوچه صدیق، پلاک ۵، تهران<br>
+    تلفن: <a href="tel:02177652709">۰۲۱-۷۷۶۵۲۷۰۹-۱۰</a><br>
+    همراه: <a href="tel:09121779000">۰۹۱۲۱۷۷۹۰۰۰</a><br>
+    ایمیل: <a href="mailto:sales@zantoswear.ir">sales@zantoswear.ir</a><br>
+    سایت: <a href="https://www.zantoswear.ir">www.zantoswear.ir</a> |  
+    اینستاگرام: <a href="https://instagram.com/zantos.official">@zantos.official</a>
+    <br>
+    <b style="color:#ef7d00;">تا پایان ماه جاری:</b> مشاوره رایگان + ۱۵٪ تخفیف تولید سفارش اول برای سازمان‌های جدید
+  </p>
+</div>
+
+<div class="footer">
+  <span>تمام حقوق محفوظ است © ZANTOS 2025 | طراحی هوشمند برای کسب‌وکارهای حرفه‌ای</span>
+</div>
+<script>
+  function scrollToId(id){
+    const el=document.getElementById(id);
+    if(el) el.scrollIntoView({behavior:'smooth'});
+  }
+  let animEls=document.querySelectorAll('.section,.product-card,.card,.scen-card');
+  window.addEventListener('scroll',()=>{
+    animEls.forEach(e=>{
+      let rect=e.getBoundingClientRect();
+      let wh=window.innerHeight||document.documentElement.clientHeight;
+      e.style.opacity=(rect.top<wh-80)?1:0.18;
+    });
+  });
+</script>
+</body>
+</html>
